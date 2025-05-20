@@ -1,0 +1,119 @@
+
+.container h1{
+  text-align: center;
+  padding: 2px;
+   max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #62bcf0;
+}
+
+
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.calculator {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #8c9ffc;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input[type="number"],
+.input-group input[type="range"] {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.calculator button {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.calculator button{
+  width:100%;
+  padding: 10px;
+  background-color: #0d0458;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.calculator button:hover {
+  background-color: #1bc03f;
+}
+.reset {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Optional: adds some space above the reset button */
+}
+
+.reset button {
+  width: 100px; /* Adjust the button width if needed */
+  padding: 10px;
+  background-color: #0e0469;
+  color: #f5f2f2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.reset button:hover {
+  background-color: #13f15d;
+}
+
+.results {
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.result-box {
+  background-color: #ea57fd;
+  border: 1px solid #bcdff1;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.footer {
+  margin: 20px auto;
+  max-width: 400px;
+  text-align: left;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 6%, 6%);
+  color: hsl(0, 13%, 95%);
+  width: 100%;
+  padding: 4px 8px; /* Reduced from 10px */
+  border-radius: 5px;
+  font-size: 0.90rem; /* Slightly smaller text */
+}
+
+
